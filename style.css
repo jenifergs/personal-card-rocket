@@ -14,14 +14,24 @@ body {
 body {
     display: grid;
     place-items: center;
-    background-color: beige;
+    background: url(img/Desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--black);
 }
 
 main {
     background: url(img/background.svg);
-    width: 375px;
-    height: 812px;
+    width: 358px;
+    height: 540px;
     color: var(--gray);
+}
+.faixa {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: -35rem;
+  
+
 }
 
 .container {
@@ -76,8 +86,4 @@ main {
         display: flex;
         gap: 0.5rem;
         justify-content: center;
-    }
-
-    @media screen { 
-        
     }
