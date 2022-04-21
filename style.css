@@ -21,8 +21,8 @@ body {
 
 main {
     background: url(img/background.svg);
-    width: 358px;
-    height: 540px;
+    width: 375px;
+    height: 813px;
     color: var(--gray);
 }
 .faixa {
